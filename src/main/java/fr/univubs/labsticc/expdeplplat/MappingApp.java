@@ -21,7 +21,7 @@ public class MappingApp {
     private static final String subTASK[] = {"_TSK_BBVClient", "_TSK_BBVServer"};
     
     /* This is the ontology */
-    private static final String ONTOLOGY = "/home/seguin/ontologies/examples/exp_lampes_rdf.owl";
+    private static final String ONTOLOGY = "/home/seguin/ontologies/examples/testEcritureOntoRDFXML.owl";
 
     private final Path fFilePath;
 
@@ -41,7 +41,8 @@ public class MappingApp {
         /* Execute the task on the Environment */
         //CommandSender sender = new CommandSender(ONTOLOGY, Resource, TASK);
         String Command = getResCommand(Resource);
-        RuntimeCmdSender(Command);
+        log(Command);
+        //RuntimeCmdSender(Command);
         log("Service executed on "+Resource);
     }
 

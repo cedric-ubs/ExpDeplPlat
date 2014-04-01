@@ -9,6 +9,7 @@ package fr.univubs.labsticc.expdeplplat;
 import com.clarkparsia.pellet.owlapiv3.PelletReasonerFactory;
 import java.io.File;
 import org.semanticweb.owlapi.apibinding.OWLManager;
+import org.semanticweb.owlapi.io.OWLXMLOntologyFormat;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLOntology;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;

@@ -21,7 +21,7 @@ public class MappingApp {
     private static final String subTASK[] = {"_TSK_BBVClient", "_TSK_BBVServer"};
     
     /* This is the ontology */
-    private static final String ONTOLOGY = "/home/seguin/ontologies/examples/testEcritureOntoRDFXML.owl";
+    private static final String ONTOLOGY = "/home/seguin/ontologies/exemple/INFontoBBV.owl";
 
     private final Path fFilePath;
 
